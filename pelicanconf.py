@@ -45,22 +45,19 @@ NEST_CSS_MINIFY = True
 NEST_REL_CANONICAL_LINK = True
 # Add items to top menu before pages
 MENUITEMS = [("Homepage", "/"), ("Categories", "/categories.html")]
-# Add header background image from content/images : 'background.jpg'
-NEST_HEADER_IMAGES = ""
-NEST_HEADER_LOGO = "/images/logo.png"
+NEST_HEADER_LOGO = "/favicon.ico"
 # Footer
 NEST_SITEMAP_COLUMN_TITLE = "Sitemap"
 NEST_SITEMAP_MENU = [
     ("Archives", "/archives.html"),
     ("Categories", "/categories.html"),
-    ("Atom Feed", "/feeds/all.atom.xml"),
 ]
 NEST_SITEMAP_ATOM_LINK = "Atom Feed"
 NEST_SITEMAP_RSS_LINK = "RSS Feed"
 NEST_SOCIAL_COLUMN_TITLE = "Social"
 NEST_LINKS_COLUMN_TITLE = "Links"
 NEST_COPYRIGHT = ""
-NEST_HEADER_IMAGES = "background.jpg"
+NEST_HEADER_IMAGES = "background.webp"
 # index.html
 NEST_INDEX_HEAD_TITLE = "Homepage"
 NEST_INDEX_HEADER_TITLE = SITESUBTITLE
@@ -124,4 +121,5 @@ STATIC_PATHS = ["images", "extra/CNAME", "extra/robots.txt"]
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
     "extra/robots.txt": {"path": "robots.txt"},
+    "images/favicon.ico": {"path": "favicon.ico"},
 }
