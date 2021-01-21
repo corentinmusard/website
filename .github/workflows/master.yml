@@ -9,8 +9,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repo
+
+    - name: Checkout gh-pages branch
       uses: actions/checkout@v2
+      with:
+        ref: gh-pages
+
+    - name: Checkout master branch
+      uses: actions/checkout@v2
+      with:
+        ref: master
 
     - name: Checkout theme repo
       uses: actions/checkout@v2
