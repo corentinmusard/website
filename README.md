@@ -21,3 +21,10 @@ pip install -r requirements.txt
 make serve
 make clean && make regenerate
 ```
+
+
+voir pour custom le css
+voir pour faire un plugin qui cut le css
+
+https://developers.google.com/speed/pagespeed/insights
+https://gemini.circumlunar.space/
